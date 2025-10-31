@@ -6,12 +6,12 @@ on:
       KERNEL_URL:
         description: 'Enter your Kernel Link'
         required: true
-        default: 'https://github.com/KAGA-KOKO/kernel-oppo6765'
+        default: 'https://github.com/KAGA-KOKO/kernel-oppo6765.git'
 
       KERNEL_BRANCH:
         description: 'Enter your Kernel branch'
         required: true
-        default: 'oss_non-ksu'
+        default: 'base-oss'
          
       KERNEL_DEFCONFIG:
         description: 'Enter the defconfig available in your kernel'
